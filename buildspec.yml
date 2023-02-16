@@ -2,7 +2,7 @@ version: 2.0
 os: linux
 files:
   - source: application/index.php
-    destination: /var/www/html/index.php
+    destination: /var/www/html/application/index.php
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
