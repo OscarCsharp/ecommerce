@@ -1,7 +1,7 @@
-version: 0.0
+version: 2.0
 os: linux
 files:
-  - source: /index.php
+  - source: /application/index.php
     destination: /var/www/html/index.php
 hooks:
   BeforeInstall:
