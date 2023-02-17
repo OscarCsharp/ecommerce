@@ -1,0 +1,310 @@
+[10-Aug-2022 15:43:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'oscarn'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[10-Aug-2022 16:03:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user '	
+         tsalast1_storeadmin'@'localhost' (using password: YES) in /home/tsalast1/public_html/classes/Database.php on line 12
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 24
+[10-Aug-2022 17:25:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 124
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 125
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 155
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 156
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 168
+[10-Aug-2022 17:25:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user '	
+         tsalast1_storeadmin'@'localhost' (using password: YES) in /home/tsalast1/public_html/classes/Database.php on line 12
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 24
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 124
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 125
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 155
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 156
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/customer_orders.php on line 168
+[10-Aug-2022 17:25:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[10-Aug-2022 17:25:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user '	
+         tsalast1_storeadmin'@'localhost' (using password: YES) in /home/tsalast1/public_html/classes/Database.php on line 12
+[10-Aug-2022 17:25:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/tsalast1/public_html/delivery.php on line 27
+[10-Aug-2022 17:25:55 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/delivery.php on line 54
+[10-Aug-2022 17:25:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[10-Aug-2022 17:26:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user '	
+         tsalast1_storeadmin'@'localhost' (using password: YES) in /home/tsalast1/public_html/classes/Database.php on line 12
+[10-Aug-2022 17:26:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/tsalast1/public_html/delivery.php on line 27
+[10-Aug-2022 17:26:17 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/tsalast1/public_html/delivery.php on line 54
+[10-Aug-2022 17:26:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[10-Aug-2022 17:28:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[14-Oct-2022 19:47:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsalast1/public_html/pay.php on line 24
+[15-Oct-2022 16:17:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:19:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:20:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:20:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:23:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:23:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:23:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:24:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:24:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:24:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:24:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:24:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:25:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:26:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:26:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:26:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:27:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:28:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[15-Oct-2022 16:30:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 13:31:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:02:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:03:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:03:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:04:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_tsalastore' in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:06:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'tsalast1_admin'@'localhost' to database 'tsalast1_storeadmin' in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:19:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[12-Nov-2022 14:19:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/tsalast1/public_html/connection.php on line 10
+[14-Nov-2022 16:07:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[14-Nov-2022 16:11:16 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[20-Nov-2022 20:02:42 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[20-Nov-2022 20:02:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[20-Nov-2022 20:03:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[20-Nov-2022 20:03:17 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[20-Nov-2022 20:03:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[21-Nov-2022 08:23:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[21-Nov-2022 08:23:04 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[21-Nov-2022 08:23:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[21-Nov-2022 08:23:04 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[21-Nov-2022 08:23:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[21-Nov-2022 11:45:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 16:24:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 16:24:02 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 16:24:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[23-Nov-2022 16:24:04 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 16:24:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[23-Nov-2022 16:41:08 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 16:41:08 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 16:41:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[23-Nov-2022 17:02:42 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 17:02:42 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 17:02:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[23-Nov-2022 17:45:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 17:45:40 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 17:45:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[23-Nov-2022 18:04:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[23-Nov-2022 18:04:14 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[23-Nov-2022 18:04:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:20:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:20:25 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:20:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:21:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:21:12 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 131
+[24-Nov-2022 11:21:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 132
+[24-Nov-2022 11:21:12 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:21:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:26:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:26:56 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:26:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:31:58 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:31:58 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:31:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:35:55 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:35:55 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:35:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 11:43:12 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 11:43:12 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 11:43:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 22:28:21 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[24-Nov-2022 22:28:32 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 22:28:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 22:28:35 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 131
+[24-Nov-2022 22:28:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 132
+[24-Nov-2022 22:28:35 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[24-Nov-2022 22:28:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[24-Nov-2022 22:38:03 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[24-Nov-2022 22:38:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[24-Nov-2022 22:38:07 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[24-Nov-2022 22:38:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[25-Nov-2022 14:47:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[25-Nov-2022 14:47:32 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[25-Nov-2022 14:47:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[26-Nov-2022 14:28:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[26-Nov-2022 14:28:44 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[26-Nov-2022 14:28:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[28-Nov-2022 12:34:22 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[28-Nov-2022 12:34:22 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[28-Nov-2022 12:34:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[28-Nov-2022 12:35:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[28-Nov-2022 12:35:39 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[28-Nov-2022 12:35:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[28-Nov-2022 12:35:49 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[28-Nov-2022 12:35:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[05-Dec-2022 13:32:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[05-Dec-2022 13:32:44 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[05-Dec-2022 13:32:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[07-Dec-2022 17:18:39 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[07-Dec-2022 17:18:39 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[07-Dec-2022 17:18:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[07-Dec-2022 17:20:03 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[07-Dec-2022 17:20:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[07-Dec-2022 17:20:04 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[07-Dec-2022 17:20:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[07-Dec-2022 17:20:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[07-Dec-2022 17:20:25 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[07-Dec-2022 17:20:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[09-Dec-2022 15:25:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[09-Dec-2022 15:25:27 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[09-Dec-2022 15:25:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[12-Dec-2022 13:05:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[12-Dec-2022 14:27:01 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[12-Dec-2022 14:27:01 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[12-Dec-2022 14:27:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 08:53:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 08:53:51 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 08:53:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 08:54:13 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[13-Dec-2022 08:54:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[13-Dec-2022 08:54:19 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 08:54:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 08:59:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 08:59:10 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 08:59:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 08:59:17 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 08:59:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 08:59:21 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 08:59:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 09:02:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 09:02:48 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 09:02:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 09:05:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 09:05:25 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 09:05:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 09:35:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 09:35:47 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 09:35:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 09:36:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 09:39:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 09:39:20 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 09:39:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 09:39:40 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[13-Dec-2022 09:40:31 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[13-Dec-2022 09:40:41 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/delivery.php on line 54
+[13-Dec-2022 09:40:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/delivery.php on line 55
+[13-Dec-2022 10:33:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 10:33:54 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 10:33:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 12:43:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tsalast1/public_html/register.php on line 189
+[13-Dec-2022 17:15:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsalast1/public_html/pay.php on line 86
+[13-Dec-2022 17:16:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsalast1/public_html/pay.php on line 86
+[13-Dec-2022 17:16:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsalast1/public_html/pay.php on line 86
+[13-Dec-2022 17:32:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tsalast1/public_html/pay_success.php on line 220
+[13-Dec-2022 18:18:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tsalast1/public_html/pay_success.php on line 205
+[13-Dec-2022 19:13:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tsalast1/public_html/order.php on line 416
+[13-Dec-2022 19:23:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 19:23:47 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:23:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:25:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 19:25:33 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:25:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:25:36 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:25:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:28:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 19:28:27 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:28:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:28:34 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:28:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:28:44 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:28:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:29:00 UTC] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/tsalast1/public_html/customer_orders.php on line 168
+[13-Dec-2022 19:29:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/tsalast1/public_html/customer_orders.php on line 169
+[13-Dec-2022 19:31:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 19:32:29 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[13-Dec-2022 19:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_email() in /home/tsalast1/public_html/customer_orders.php:135
+Stack trace:
+#0 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 135
+[13-Dec-2022 19:37:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/tsalast1/public_html/customer_orders.php:53
+Stack trace:
+#0 /home/tsalast1/public_html/customer_orders.php(134): send_email('VUSIMBOMBI7@GMA...', 'storeadmin@tsal...', 'storeadmin@tsal...', '0614291119')
+#1 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 53
+[13-Dec-2022 19:42:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/tsalast1/public_html/customer_orders.php:53
+Stack trace:
+#0 /home/tsalast1/public_html/customer_orders.php(134): send_email('VUSIMBOMBI7@GMA...', 'storeadmin@tsal...', 'storeadmin@tsal...', '0614291119')
+#1 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 53
+[13-Dec-2022 19:49:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/tsalast1/public_html/customer_orders.php:53
+Stack trace:
+#0 /home/tsalast1/public_html/customer_orders.php(134): send_email('VUSIMBOMBI7@GMA...', 'storeadmin@tsal...', 'storeadmin@tsal...', '0614291119')
+#1 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 53
+[13-Dec-2022 19:53:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/tsalast1/public_html/customer_orders.php:53
+Stack trace:
+#0 /home/tsalast1/public_html/customer_orders.php(134): send_email('VUSIMBOMBI7@GMA...', 'storeadmin@tsal...', 'storeadmin@tsal...', '0614291119')
+#1 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 53
+[13-Dec-2022 19:53:16 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/tsalast1/public_html/customer_orders.php:53
+Stack trace:
+#0 /home/tsalast1/public_html/customer_orders.php(134): send_email('VUSIMBOMBI7@GMA...', 'storeadmin@tsal...', 'storeadmin@tsal...', '0614291119')
+#1 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 53
+[13-Dec-2022 19:57:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tsalast1/public_html/customer_orders.php on line 41
+[13-Dec-2022 20:26:34 UTC] PHP Warning:  Use of undefined constant customer_order_list - assumed 'customer_order_list' (this will throw an Error in a future version of PHP) in /home/tsalast1/public_html/customer_orders.php on line 12
+[13-Dec-2022 20:28:23 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[14-Dec-2022 10:04:50 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[15-Dec-2022 08:47:05 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[15-Dec-2022 08:47:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[15-Dec-2022 08:49:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/tsalast1/public_html/phpmailer/PHPMailerAutoload.php on line 45
+[15-Dec-2022 09:35:57 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[15-Dec-2022 09:46:40 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[15-Dec-2022 09:57:04 UTC] PHP Parse error:  syntax error, unexpected ''storeadmin@tsalastore.co.za){' (T_ENCAPSED_AND_WHITESPACE) in /home/tsalast1/public_html/brands.php on line 20
+[15-Dec-2022 11:13:57 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:13:57 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:18:06 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:18:12 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:19:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:19:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:19:20 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:19:20 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 181
+[15-Dec-2022 11:26:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:26:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:26:55 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:26:55 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:28:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:28:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:29:07 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:29:07 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:45:11 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /home/tsalast1/public_html/customer_orders.php on line 186
+[15-Dec-2022 11:47:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:47:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:47:21 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:47:21 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:51:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:51:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:52:00 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:52:00 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:53:48 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:53:48 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:53:53 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:53:53 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:56:34 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:56:34 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:57:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:57:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:58:02 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:58:02 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:58:35 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:58:35 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:59:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 11:59:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 188
+[15-Dec-2022 12:10:45 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/tsalast1/public_html/customer_orders.php:130
+Stack trace:
+#0 {main}
+  thrown in /home/tsalast1/public_html/customer_orders.php on line 130
+[15-Dec-2022 12:16:39 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tsalast1/public_html/customer_orders.php on line 132
+[15-Dec-2022 12:54:42 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 237
+[15-Dec-2022 12:54:42 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 237
+[15-Dec-2022 13:00:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 237
+[15-Dec-2022 13:00:10 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 237
+[15-Dec-2022 13:02:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 238
+[15-Dec-2022 13:02:50 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 238
+[15-Dec-2022 13:08:13 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 231
+[15-Dec-2022 13:08:20 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 231
+[15-Dec-2022 13:36:12 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 222
+[15-Dec-2022 13:36:12 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 222
+[15-Dec-2022 13:36:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 222
+[15-Dec-2022 13:36:15 UTC] PHP Warning:  A non-numeric value encountered in /home/tsalast1/public_html/customer_orders.php on line 222
