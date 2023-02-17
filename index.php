@@ -5,7 +5,7 @@ if (isset($_SESSION['customer'])) {
   header("location:cust-index.php");
 }
 
-include("connection.php");
+//include("connection.php");
 error_reporting(0);
 
 ?>
