@@ -1,11 +1,12 @@
+<?php
+   ob_start();
+   session_start();
+?>
 <?php 
-ob_start();
-session_start();
 if (isset($_SESSION['customer'])) {
   header("location:cust-index.php");
 }
-
-//include("connection.php");
+include("connection.php");
 error_reporting(0);
 
 ?>
