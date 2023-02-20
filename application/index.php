@@ -147,7 +147,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class=" con-w3l">
 						<?php 
 
-								$q2= "SELECT * FROM products WHERE item_type = 'Shoe' LIMIT 4";
+								$q2= "SELECT * FROM products WHERE item_type = 'Shoes' And special_offer = 'Yes' LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -193,7 +193,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class=" con-w3l">
 						<?php 
 
-								$q2= "SELECT * FROM products WHERE item_type='Watch' LIMIT 4";
+								$q2= "SELECT * FROM products WHERE item_type='Watch' And special_offer = 'Yes' LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -249,7 +249,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="tab-pane  text-style" id="tab3">
 						<div class=" con-w3l">
 						<?php 
-								$q2= "SELECT * FROM products WHERE item_type='Laptop' LIMIT 4";
+								$q2= "SELECT * FROM products WHERE item_type='Laptop' And special_offer = 'Yes' LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -297,7 +297,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class=" con-w3l">
 						<?php 
 
-								$q2= "SELECT * FROM products WHERE item_type='Watch' LIMIT 4";
+								$q2= "SELECT * FROM products WHERE item_type='Watch' And special_offer = 'Yes' LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
