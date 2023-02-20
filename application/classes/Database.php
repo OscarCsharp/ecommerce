@@ -8,9 +8,18 @@ class Database
 	
 	private $con;
 	public function connect(){
-		$this->con = new Mysqli("localhost", "tsalast1_storeadmin", "Admin@01**", "tsalast1_tsalastore");
+		$servername= "13.245.33.120:3306";
+        $username= "admin";
+        $password= "Admin@01**";
+        $dbname= "storedb";
+		$this->con = new Mysqli($servername,$username,$password,$dbname);
 		return $this->con;
 	}
 }
 
 ?>
+
+$servername= "13.245.33.120:3306";
+$username= "admin";
+$password= "Admin@01**";
+$dbname= "storedb";
