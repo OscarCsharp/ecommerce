@@ -16,7 +16,7 @@ $cust = $_SESSION['customer'];
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:title" content="Vide" />
-    <meta name="keywords" content="Special Offers" />
+    <meta name="keywords" content="Tsala Store" />
     <script type="application/x-javascript">
     addEventListener("load", function() {
         setTimeout(hideURLbar, 0);
@@ -210,8 +210,7 @@ $cust = $_SESSION['customer'];
                             
                             </div>
                             <div class="mid-2">
-                                <p><label> R <?php echo $res2['product_price'] +20;?></label><em class="item_price"> R
-                                        <?php echo $res2['product_price'];?></em></p>
+                            <p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
                                 <div class="clearfix"></div>
                             </div>
                             <?php 
