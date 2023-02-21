@@ -10,7 +10,7 @@ if(isset($_POST["id"])){
 	$data= mysqli_query($conn, $q);
 
 	while($row = mysqli_fetch_array($data)){
-		$pro_id    = $row['product_id'];
+		$pro_id    = $row['product_id'] ;
 		$pro_cat   = $row['product_cat'];
 		$pro_brand = $row['product_brand'];
 		$pro_title = $row['product_title'];
