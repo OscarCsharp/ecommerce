@@ -1,5 +1,7 @@
+
 <?php
-header('Access-Control-Allow-Origin: *'); 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin");
    ob_start();
    session_start();
 ?>
