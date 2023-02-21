@@ -175,7 +175,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										$image= $s.$ext;
 										?>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_priceproduct_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" 
+										   data-price="<?php $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100)); echo $price;?>"  
+										   data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
 										</div>
 										
 									</div>
@@ -232,7 +234,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										$image= $s.$ext;
 										?>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?> data-size="1">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" 
+										   data-price="<?php $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100)); echo $price;?>"  
+										   data-quantity="1" data-image="<?php echo $image; ?> data-size="1">Add to Cart</button>
 										</div>
 										
 									</div>
@@ -279,7 +283,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										$image= $s.$ext;
 										?>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" 
+										   data-price="<?php $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100)); echo $price;?>"  
+										   data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
 										</div>
 										
 									</div>
@@ -327,7 +333,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										$image= $s.$ext;
 										?>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" 
+										   data-price="<?php $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100)); echo $price;?>"  
+										   data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
 										</div>
 										
 									</div>
