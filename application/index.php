@@ -166,7 +166,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> R <?php echo $res2['product_price'] +20;?></label><em class="item_price"> R <?php echo $res2['product_price'];?></em></p>
+											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
 
 											<div class="clearfix"></div>
 										</div>
