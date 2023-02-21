@@ -167,7 +167,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										</div>
 										<div class="mid-2">
 											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
-
 											<div class="clearfix"></div>
 										</div>
 										<?php 
@@ -176,7 +175,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										$image= $s.$ext;
 										?>
 										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_priceproduct_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
 										</div>
 										
 									</div>
@@ -221,7 +220,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                                             }
                                            ?>
 										<div class="mid-2">
-											<p ><label> R <?php echo $res2['product_price'] +20;?></label><em class="item_price"> R <?php echo $res2['product_price'];?></em></p>
+											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -268,7 +267,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> R <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -316,7 +315,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> R <?php echo $res2['product_price'] +20;?></label><em class="item_price"> R <?php echo $res2['product_price'];?></em></p>
+											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
