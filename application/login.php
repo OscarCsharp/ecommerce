@@ -82,16 +82,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Customer Login</a></li>
-					<li><a href="vendor-index.php" ><i class="fa fa-user" aria-hidden="true"></i>Vendor Login</a></li>
+					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+					<li><a href="about.php" ><i class="fa fa-file-text-o" aria-hidden="true"></i> About Us </a></li>
+					<li><a href="shipping.php" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
 				</ul>	
 			</div>
 			
 			<div class="header-ri">
 				<ul class="social-top">
 					<li><a href="https://wa.me/c/27691931450" class="icon whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="https://instagram.com/tsalastoree?igshid=YmMyMTA2M2Y=" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="https://twitter.com/TsalaStore?t=FDSWGYwCj7zINIbwDbeLnA&s=09" class="icon dribbble"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://twitter.com/TsalaStore?t=FDSWGYwCj7zINIbwDbeLnA&s=09" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://instagram.com/tsalastoree?igshid=YmMyMTA2M2Y=" class="icon dribbble"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
 		
@@ -107,64 +109,30 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Forget Password</h3>
-		<h4><a href="index.php">Home</a><label>/</label>Forget Password</h4>
+		<h3 >Login</h3>
+		<h4><a href="index.php">Home</a><label>/</label>Login</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
 <!--login-->
 
-<?php 
-require './phpmailer/PHPMailerAutoload.php';
-
-function send_email($email,$pass){
-$mail = new PHPMailer;
-
-$htmlversion= "<br> Password: <b>".$pass."</b>";
-$textversion= 'Forgot Password';
-
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
-
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
-$mail->addAddress($email);               // Name is optional
-
-$mail->isHTML(true);
-
-$mail->Subject = 'Forgot Password';
-$mail->Body    = $htmlversion;
-$mail->AltBody = $textversion;
-
-if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    /*echo 'Message has been sent';*/
-}
-}
-
-?>
-
-
 	<div class="login">
 	
 		<div class="main-agileits">
 				<div class="form-w3agile">
-					<h3>Forget Password</h3>
-					<form method="post">
+					<h3>Login</h3>
+					<form action="" method="post">
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" name="submit" value="Send Email ">
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<input type="submit" name="submit" value="Login">
 					</form>
 
 					<?php
@@ -172,17 +140,19 @@ if(!$mail->send()) {
 						if(isset($_POST['submit']))
 						{
 						$email= $_POST['Email'];
+						$passwd= $_POST['Password'];
 
-						if($email != "" ){
-							$query= "SELECT * from vendors where email='$email'";
+						if($email != "" && $passwd != ""){
+							$query= "SELECT * from customers where username='$email' && password='$passwd'";
 							$data= mysqli_query($conn, $query);
 							$total= mysqli_num_rows($data);
-							while($res= mysqli_fetch_assoc($data)){
-								$pass= $res['password'];
-								send_email($email, $pass);
-								echo "<script type='text/javascript'> alert('Password Sent at your Email ID'); </script>";
+							if($total == 1){
+									$_SESSION['customer']= $Username;
+									echo "<script type='text/javascript'>  window.location='cust-index.php'; </script>";
 							}
-
+							else{
+								echo "Invalid Username or Password";
+							}
 						}
 						else{
 							echo "All Fields Required";
@@ -194,7 +164,7 @@ if(!$mail->send()) {
 
 				</div>
 				<div class="forg">
-					<a href="login.php" class="forg-left">Login</a>
+					<a href="forget.php" class="forg-left">Forgot Password</a>
 					<a href="register.php" class="forg-right">Register</a>
 				<div class="clearfix"></div>
 				</div>

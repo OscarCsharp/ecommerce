@@ -1,24 +1,21 @@
 <?php 
 session_start();
-if(isset($_SESSION['customer']))
-{
-	header("location:cust-index.php");
-}
 
 include("connection.php");
 error_reporting(0);
-?>
 
+$cust= $_SESSION['customer'];
+?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title>Shipping</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:title" content="Vide" />
-<meta name="keywords" content="Tsala Store" />
+<meta name="keywords" content="Tsala Store " />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -80,12 +77,40 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Tsala Store<span>online fashion store</span></a></h1>
 			</div>
 
+			<?php 
+			if(isset($_SESSION['customer']))
+			{
+				
+			?>
+			<div class="header">
+				<b>Welcome </b><b style="color: green;"><?php echo $cust; ?></b>
+			</div>
+
+			<div class="head-t">
+				<ul class="card">
+					<li><a href="order.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Orders</a></li>
+					<li><a href="shipping.php" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
+					<li><a href="cust-logout.php" ><i class="fa fa-user" aria-hidden="true"></i>Logout</a></li>
+				</ul>	
+			</div>
+
+			<?php
+			}
+
+			else{
+				?>
+
 			<div class="head-t">
 				<ul class="card">
 					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Customer Login</a></li>
-					<li><a href="vendor-index.php" ><i class="fa fa-user" aria-hidden="true"></i>Vendor Login</a></li>
+					<li><a href="about.php" ><i class="fa fa-file-text-o" aria-hidden="true"></i>About Us</a></li>
 				</ul>	
-			</div>
+			</div>	 
+
+			<?php
+			}
+
+			?>
 			
 			<div class="header-ri">
 				<ul class="social-top">
@@ -104,102 +129,112 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>			
 </div>
   <!---->
- <!--banner-->
+<!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Forget Password</h3>
-		<h4><a href="index.php">Home</a><label>/</label>Forget Password</h4>
+		<h3 >Shipping</h3>
+		<h4><a href="index.php">Home</a><label>/</label>Shipping</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<!--login-->
-
-<?php 
-require './phpmailer/PHPMailerAutoload.php';
-
-function send_email($email,$pass){
-$mail = new PHPMailer;
-
-$htmlversion= "<br> Password: <b>".$pass."</b>";
-$textversion= 'Forgot Password';
-
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
-
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
-$mail->addAddress($email);               // Name is optional
-
-$mail->isHTML(true);
-
-$mail->Subject = 'Forgot Password';
-$mail->Body    = $htmlversion;
-$mail->AltBody = $textversion;
-
-if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    /*echo 'Message has been sent';*/
-}
-}
-
-?>
-
-
-	<div class="login">
-	
-		<div class="main-agileits">
-				<div class="form-w3agile">
-					<h3>Forget Password</h3>
-					<form method="post">
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" name="submit" value="Send Email ">
-					</form>
-
-					<?php
-
-						if(isset($_POST['submit']))
-						{
-						$email= $_POST['Email'];
-
-						if($email != "" ){
-							$query= "SELECT * from vendors where email='$email'";
-							$data= mysqli_query($conn, $query);
-							$total= mysqli_num_rows($data);
-							while($res= mysqli_fetch_assoc($data)){
-								$pass= $res['password'];
-								send_email($email, $pass);
-								echo "<script type='text/javascript'> alert('Password Sent at your Email ID'); </script>";
-							}
-
-						}
-						else{
-							echo "All Fields Required";
-						}
-					}
-
-					?>
-
-
-				</div>
-				<div class="forg">
-					<a href="login.php" class="forg-left">Login</a>
-					<a href="register.php" class="forg-right">Register</a>
-				<div class="clearfix"></div>
+<!-- faqs -->
+	<div class="faq-w3 ">
+		<div class="container">
+			<div class="spec ">
+			<h3>Shipping</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
 				</div>
 			</div>
-		</div>
+				<div class="panel-group" id="accordion">
+				<!-- First Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne">
+								 <span>1.</span> What are the delivery charges?
+							 </h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>........</p>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Second Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse"  data-target="#collapseTwo">
+								<span>2.</span> How long will my order take to arrive?
+							 </h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse">
+							<div class="panel-body">								
+								<p>...................</p>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Third Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
+								<span>3.</span> What is the estimated delivery time?
+							 </h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>................</p>
+							</div>
+						</div>
+					</div>
+					<!-- Fourth Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
+								<span>4.</span>Do you ship internationally?
+							 </h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>...............</p>
+							</div>
+						</div>
+					</div>
+					<!-- Fifth Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFive">
+								<span>5.</span>How do I take advantage of FREE shipping?
+							 </h4>
+						</div>
+						<div id="collapseFive" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>........</p>
+							</div>
+						</div>
+					</div>
+					<!-- Sixth Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
+								<span>6.</span>Why have I not received my product yet?
+							 </h4>
+						</div>
+						<div id="collapseSix" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p> .................. </p>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+		</div>	
+	</div>
+	<!-- // Terms of use -->
+
 <!--footer-->
 <?php include_once("footer.php"); ?>
 <!-- //footer-->

@@ -1,19 +1,13 @@
-<?php 
+<?php
 session_start();
-if(isset($_SESSION['customer']))
-{
-	header("location:cust-index.php");
-}
-
 include("connection.php");
 error_reporting(0);
 ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title>Register</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -82,9 +76,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 			<div class="head-t">
 				<ul class="card">
-					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Customer Login</a></li>
-					<li><a href="vendor-index.php" ><i class="fa fa-user" aria-hidden="true"></i>Vendor Login</a></li>
-				</ul>	
+					<li><a href="login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+					<li><a href="about.php" ><i class="fa fa-file-text-o" aria-hidden="true"></i>About Us</a></li>
+					<li><a href="shipping.php" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
+				</ul>		
 			</div>
 			
 			<div class="header-ri">
@@ -104,88 +100,102 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>			
 </div>
   <!---->
- <!--banner-->
+
+     <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Forget Password</h3>
-		<h4><a href="index.php">Home</a><label>/</label>Forget Password</h4>
+		<h3 >Register</h3>
+		<h4><a href="index.php">Home</a><label>/</label>Register</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
+
 <!--login-->
 
-<?php 
-require './phpmailer/PHPMailerAutoload.php';
-
-function send_email($email,$pass){
-$mail = new PHPMailer;
-
-$htmlversion= "<br> Password: <b>".$pass."</b>";
-$textversion= 'Forgot Password';
-
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'rfidlibrarypccoe@gmail.com';                 // SMTP username
-$mail->Password = '14785269';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
-
-$mail->setFrom('rfidlibrarypccoe@gmail.com', 'Grocery Store');
-$mail->addAddress($email);               // Name is optional
-
-$mail->isHTML(true);
-
-$mail->Subject = 'Forgot Password';
-$mail->Body    = $htmlversion;
-$mail->AltBody = $textversion;
-
-if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    /*echo 'Message has been sent';*/
-}
-}
-
-?>
-
-
 	<div class="login">
-	
 		<div class="main-agileits">
-				<div class="form-w3agile">
-					<h3>Forget Password</h3>
-					<form method="post">
+				<div class="form-w3agile form1">
+					<h3>Register</h3>
+					<form action="" method="get">
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input  type="text" value="Email" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="true">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" name="submit" value="Send Email ">
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="Fullname" name="Fullname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Fullname';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<input  type="text" value="Phone" name="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="Street Address" name="Street" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Street';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="City" name="City" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="Pincode/ Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Confirm Password" name="ConfirmPassword" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Confirm Password';}" required="true">
+							<div class="clearfix"></div>
+						</div>
+						<input type="submit" name="submit" value="Submit">
 					</form>
 
 					<?php
+						if($_GET['submit']){
 
-						if(isset($_POST['submit']))
-						{
-						$email= $_POST['Email'];
+							$uname= $_GET['Username'];
+							$Fullname= $_GET['Fullname'];
+							$phone= $_GET['Phone'];
+							$street= $_GET['Street'];
+							$city= $_GET['City'];
+							$pincode= $_GET['Pincode'];
+							$passwd= $_GET['Password'];
+							$cpasswd= $_GET['ConfirmPassword'];
+						
 
-						if($email != "" ){
-							$query= "SELECT * from vendors where email='$email'";
-							$data= mysqli_query($conn, $query);
-							$total= mysqli_num_rows($data);
-							while($res= mysqli_fetch_assoc($data)){
-								$pass= $res['password'];
-								send_email($email, $pass);
-								echo "<script type='text/javascript'> alert('Password Sent at your Email ID'); </script>";
+						if($uname != "" && $Fullname != "" && $phone != "" && $city != "" && $pincode != "" && $passwd != ""){
+
+							if($passwd == $cpasswd){
+
+								$query= "INSERT INTO customers values (DEFAULT,'$uname','$Fullname','$street','$city','$pincode','$passwd','$phone')";
+								$data= mysqli_query($conn, $query);
+
+								if($data == false){
+									echo " All Fields Required ";
+								}
+								else{
+									$_SESSION['customer']= $uname;
+									
+									echo "<script type='text/javascript'>  window.location='cust-index.php'; </script>";
+								}
+
 							}
-
+							else{
+								echo "Passwords don't Match";
+							}
 						}
 						else{
-							echo "All Fields Required";
+							echo " All Fields Required ";
 						}
 					}
 
@@ -193,11 +203,7 @@ if(!$mail->send()) {
 
 
 				</div>
-				<div class="forg">
-					<a href="login.php" class="forg-left">Login</a>
-					<a href="register.php" class="forg-right">Register</a>
-				<div class="clearfix"></div>
-				</div>
+				
 			</div>
 		</div>
 <!--footer-->
