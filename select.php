@@ -76,7 +76,7 @@ if(isset($_POST["id"])){
 		});
 	</script>
 	
-<script type='text/javascript' src="js/jquery.mycart.js"></script>
+<script type='text/javascript' src="/js/jquery.mycart.js"></script>
   <script type="text/javascript">
   $(function () {
 
