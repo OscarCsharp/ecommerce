@@ -153,12 +153,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne">
-								 <span>1.</span> What are the delivery charges?
+								 <span>1.</span> How Much Is Courier Charges?
 							 </h4>
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>........</p>
+								<p>R130,00</p>
 							</div>
 						</div>
 					</div>
@@ -167,12 +167,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse"  data-target="#collapseTwo">
-								<span>2.</span> How long will my order take to arrive?
+								<span>2.</span> What Is The Estimated Delivery Time?
 							 </h4>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse">
 							<div class="panel-body">								
-								<p>...................</p>
+								<p>Our Courier takes up to 4-7days depending on which courier you choose.</p>
 							</div>
 						</div>
 					</div>
@@ -194,12 +194,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
-								<span>4.</span>Do you ship internationally?
+								<span>3.</span>How Do I Take Advantage Of FREE Shipping?
 							 </h4>
 						</div>
 						<div id="collapseFour" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>...............</p>
+								<p>Free delivery for orders exceeding R1,000.00</p>
 							</div>
 						</div>
 					</div>
@@ -207,29 +207,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFive">
-								<span>5.</span>How do I take advantage of FREE shipping?
+								<span>4.</span>Why Have I Not Received My Product Yet?
 							 </h4>
 						</div>
 						<div id="collapseFive" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>........</p>
+								<p>Please send an email to support@tsalastore.co.za along with your order number.</p>
 							</div>
 						</div>
 					</div>
-					<!-- Sixth Panel -->
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
-								<span>6.</span>Why have I not received my product yet?
-							 </h4>
-						</div>
-						<div id="collapseSix" class="panel-collapse collapse">
-							<div class="panel-body">
-								<p> .................. </p>
-							</div>
-						</div>
-					</div>
-			
+					
 				</div>
 		</div>	
 	</div>

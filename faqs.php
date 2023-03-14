@@ -148,7 +148,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<b class="line"></b>
 				</div>
 			</div>
-				<div class="panel-group" id="accordion">
+
+			<div class="panel-group" id="accordion">
 				<!-- First Panel -->
 					<div class="panel panel-default">
 						<div class="panel-heading">
@@ -158,7 +159,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>No, we deliver nationwide.</p>
+								<p>Tsala Store only delivers nationwide (South Africa)</p>
 							</div>
 						</div>
 					</div>
@@ -172,7 +173,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse">
 							<div class="panel-body">								
-								<p>2-6 working days</p>
+								<p>Our Courier takes up to 4-7days depending on which courier you choose</p>
 							</div>
 						</div>
 					</div>
@@ -181,12 +182,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
-								<span>3.</span> What kind of brands do you offer?
+								<span>3.</span> What Kind Courier Brands Do You Offer?
 							 </h4>
 						</div>
 						<div id="collapseThree" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>We cater all different kind clothing of brands</p>
+								<p>PAXI</p>
+                                 <p>POSTNET</p>
+                                 <p>THE COURIER GUY</p>
 							</div>
 						</div>
 					</div>
@@ -199,7 +202,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div id="collapseFour" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>Sneakers, clothes and watches</p>
+								<p>Sneakers, Jackets, T-shirts, Phones, Laptops and Watches 5.Where Are You Located?
+                                  Pretoria</p>
 							</div>
 						</div>
 					</div>
@@ -220,12 +224,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
-								<span>6.</span>Do you offer Laybuy?
+								<span>6.</span>Do You Offer Laybuy?
 							 </h4>
 						</div>
 						<div id="collapseSix" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>No, however you can you can credit your account for future use </p>
+								<p>No</p>
 							</div>
 						</div>
 					</div>
@@ -233,12 +237,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSeven">
-								<span>7.</span> How can we reach you through Social media?
+								<span>7.</span> How Can We Reach You Through Social Media? 
 							 </h4>
 						</div>
 						<div id="collapseSeven" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>You can reach us through whatsapp (@Tsalastore), Instagram (@tsalastoree) and Twitter (Tsalastore)</p>
+								<p>Facebook: Tsala Store</p>
+                                <p>Twitter: @TsalaStore</p>
+								<p>Instagram: @tsalastoree</p>
 							</div>
 						</div>
 					</div>
@@ -251,7 +257,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div id="collapseEight" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>2020 </p>
+								<p>Tsala Store was founded in 2020 as Tsala Online Clothing, and reformed as Tsala Store in 2021 </p>
 							</div>
 						</div>
 					</div>
@@ -259,12 +265,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							 <h4 class="panel-title" data-toggle="collapse" data-target="#collapseNine">
-								<span>9.</span>Who founded Tsala Store?
+								<span>9.</span> How Do I Make A Purchase/Order?
 							 </h4>
 						</div>
 						<div id="collapseNine" class="panel-collapse collapse">
 							<div class="panel-body">
-								<p>Vusi Mbombi, Nyiko Macuvele and Zenzo Mukansi </p>
+								<p>Please follow the link to see how you can make an order</p>
 							</div>
 						</div>
 					</div>
