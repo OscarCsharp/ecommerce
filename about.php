@@ -167,10 +167,9 @@ $cust = $_SESSION['customer'];
 					<div class="bs-example">
 						<div class="mb-60">
 
-							<p>The Tsala Store is a company/store that was established as Tsala Online Clothing in Sep 2020</p>
-							<p>by three (3) South African young men believing to elevate and help the South African fashion sense and market in distributing and maintaining South African clothing quality brands. It was later reformed as The Tsala Store in November 2021 with the purpose of distributing and serving the people of South Africa with quality sneakers, clothes, laptops, phones, watches and many more other quality products. It is an E-commerce store that was established to be the market leader in online fashion and many other products sales around South Africa.</p>
-							<p>We present our customers with the best customer service and quality products of different kinds. We currently cater all sizes and age groups at an affordable price. As one of the best and reliable</p>
-							<p>online store around South Africa, we offer free delivery for orders exceeding R1,000.00.</p>
+							<p>The Tsala Store is a company/store that was established as Tsala Online Clothing in Sep 2020
+							 by three (3) South African young men believing to elevate and help the South African fashion sense and market in distributing and maintaining South African clothing quality brands. It was later reformed as The Tsala Store in November 2021 with the purpose of distributing and serving the people of South Africa with quality sneakers, clothes, laptops, phones, watches and many more other quality products. It is an E-commerce store that was established to be the market leader in online fashion and many other products sales around South Africa.</p>
+							<p>We present our customers with the best customer service and quality products of different kinds. We currently cater all sizes and age groups at an affordable price. As one of the best and reliable online store around South Africa, we offer free delivery for orders exceeding R1,000.00.</p>
 
 						</div>
 					</div>

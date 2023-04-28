@@ -117,7 +117,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--login-->
 
 <?php 
-require './phpmailer/PHPMailerAutoload.php';
+require './helpers/PHPMailer.php';
 
 function send_email($email,$pass){
 $mail = new PHPMailer;

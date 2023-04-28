@@ -199,7 +199,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class=" con-w3l">
 						<?php 
 
-								$q2= "SELECT * FROM products WHERE item_type='Watch' And special_offer = 'Yes' LIMIT 4";
+								$q2= "SELECT * FROM products WHERE item_type='Phone' And special_offer = 'Yes' LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -217,19 +217,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 												<?php echo $res2['product_title'];?>
 											</h6>							
 										</div>
-										<label style="color:#c74b0e ;  font-size: 14px;">Item Sizes :</label>
-                                           <?php
-                                             $sizes = $res2['product_size'];
-                                             $itemsizes = explode(',',$sizes);
-                                             $length = count($itemsizes);
-                                             for ($x = 0; $x < $length; $x++){
-                                                echo'<span class="itemsize" >'.$itemsizes[$x].'</span>'; 
-                                            }
-                                           ?>
 										<div class="mid-2">
 											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
+											  <div class="block">	
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -328,7 +318,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<div class="mid-2">
 											<p ><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
 											  <div class="block">
-												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>

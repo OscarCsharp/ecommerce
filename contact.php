@@ -156,7 +156,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<ul class="contact-list">
 					<li> <i class="fa fa-map-marker" aria-hidden="true"></i> Address : Sunnyside Pretoria, Gauteng 0001 </li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mart@mail.com"> enquiries@tsalastore.co.za</a></li>
-					<li> <i class="fa fa-phone" aria-hidden="true"></i>069 193 1450</li>
+					<li> <i class="fa fa-phone" aria-hidden="true"></i>076 050 2562</li>
 				</ul>
 				<div id="container">
 					<!--Horizontal Tab-->

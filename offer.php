@@ -197,17 +197,18 @@ $cust = $_SESSION['customer'];
                                 <h6>
                                     <?php echo $res2['product_title'];?>
                                 </h6>
-                                <label style="color:#c74b0e ;  font-size: 14px;">UK Size :</label>
                                 <br>
                             <?php
                                 $sizes = $res2['product_size'];
                                 $itemsizes = explode(',',$sizes);
                                 $length = count($itemsizes);
+                                if($length > 1){
+                                    echo '<label  style="color:#c74b0e ;  font-size: 14px;">UK Size :</label><br>';
                                 for ($x = 0; $x < $length; $x++){
-                                  echo'<span class="itemsize" >'.$itemsizes[$x].'</span>'; 
+                                   echo'<span class="itemsize" >'.$itemsizes[$x].'</span>'; 
+                                }
                                 }
                             ?>
-                            
                             </div>
                             <div class="mid-2">
                             <p><label> R <?php echo $res2['product_price'];?></label><em class="item_price"> R <?php  $price = $res2['product_price'] - ($res2['product_price'] * ($res2['discount_percent']/100));  echo $price;?></em></p>
@@ -268,14 +269,15 @@ $cust = $_SESSION['customer'];
                                 <h6>
                                     <?php echo $res2['product_title'];?>
                                 </h6>
-                            <label style="color:#c74b0e ;  font-size: 14px;">UK Size :</label>
-                            <br>
                             <?php
                                 $sizes = $res2['product_size'];
                                 $itemsizes = explode(',',$sizes);
                                 $length = count($itemsizes);
+                                if($length > 1){
+                                    echo '<label  style="color:#c74b0e ;  font-size: 14px;">UK Size :</label><br>';
                                 for ($x = 0; $x < $length; $x++){
-                                  echo'<span class="itemsize" >'.$itemsizes[$x].'</span>'; 
+                                   echo'<span class="itemsize" >'.$itemsizes[$x].'</span>'; 
+                                }
                                 }
                             ?>
                             </div>
