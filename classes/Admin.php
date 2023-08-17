@@ -17,7 +17,7 @@ class Admin
 	}
 
 	public function getAdminList(){
-		$query = $this->con->query("SELECT `username`, `email`, `phone`, `street`, `city`  FROM `vendors`  ");
+		$query = $this->con->query("SELECT `username`, `fullname`, `phone`, `street`, `city`  FROM `vendors`  ");
 		$ar = [];
 		if ($query->num_rows > 0) {
 			while ($row = $query->fetch_assoc()) {

@@ -3,12 +3,12 @@
   header("location:vendor.php");
 }
 ?>
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
+<?php include_once("./vendor/top.php"); ?>
+<?php include_once("./vendor/navbar.php"); ?>
 <div class="container-fluid">
   <div class="row">
     
-    <?php include "./templates/sidebar.php";
+    <?php include "./vendor/sidebar.php";
       $admin = $_SESSION['user'];
     ?>
 <script type="text/javascript">
@@ -162,6 +162,6 @@
 </div>
 <!-- Modal -->
 
-<?php include_once("./templates/footer.php"); ?>
+<?php include_once("./vendor/footer.php"); ?>
 
 <script type="text/javascript" src="./js/categories.js"></script>

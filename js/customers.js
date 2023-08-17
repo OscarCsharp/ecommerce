@@ -21,9 +21,9 @@ $(document).ready(function(){
 						customersHTML += '<tr>'+
 									          '<td>#</td>'+
 									          '<td>'+value.username+'</td>'+
-									          '<td>'+value.email+'</td>'+
+									          '<td>'+value.fullname+'</td>'+
 									          '<td>'+value.phone+'</td>'+
-									          '<td>'+value.street+'<br>'+value.city+'<br>'+value.pincode+'</td>'+
+									          '<td>'+value.street+'<br>'+value.city+'<br>'+value.postalcode+'</td>'+
 									       '</tr>'
 
 					});
@@ -54,8 +54,7 @@ $(document).ready(function(){
 
 					$.each(resp.message, function(index, value){
 
-						customerOrderHTML +='<tr>'+
-								              '<td>#</th>'+
+						customerOrderHTML +='<tr>'+							              
 								              '<td><img width="60" height="60" src="'+value.product_image+'"></td>'+
 								              '<td>'+ value.product_title +'</td>'+
 								              '<td>'+ value.product_qty +'</td>'+

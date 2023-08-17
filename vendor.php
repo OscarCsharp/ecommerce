@@ -149,7 +149,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="" method="post">
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="true">
+							<input  type="text" value="Email Address" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" required="true">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -164,15 +164,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 						if(isset($_POST['submit']))
 						{
-						$email= $_POST['Email'];
+						$username= $_POST['Username'];
 						$passwd= $_POST['Password'];
 
-						if($email != "" && $passwd != ""){
-							$query= "SELECT * from vendors where email='$email' && password='$passwd'";
+						if($username != "" && $passwd != ""){
+							$query= "SELECT * from vendors where username='$username' && password='$passwd'";
 							$data= mysqli_query($conn, $query);
 							$total= mysqli_num_rows($data);
 							if($total == 1){
-									$_SESSION['user']= $email;
+									$_SESSION['user']= $username;
 									echo "<script type='text/javascript'>  window.location='vendor-index.php'; </script>";
 							}
 							else{

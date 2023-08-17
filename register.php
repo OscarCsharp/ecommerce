@@ -119,7 +119,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<form action="" method="get">
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="true">
+							<input  type="text" value="Email Address" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" required="true">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -144,7 +144,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Pincode/ Zipcode" name="Pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pincode';}" required="true">
+							<input  type="text" value="Postal Code" name="Postalcode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Postal Code';}" required="true">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -164,20 +164,20 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						if($_GET['submit']){
 
 							$uname= $_GET['Username'];
-							$Fullname= $_GET['Fullname'];
+							$fullname= $_GET['Fullname'];
 							$phone= $_GET['Phone'];
 							$street= $_GET['Street'];
 							$city= $_GET['City'];
-							$pincode= $_GET['Pincode'];
+							$postalcode= $_GET['Postalcode'];
 							$passwd= $_GET['Password'];
 							$cpasswd= $_GET['ConfirmPassword'];
 						
 
-						if($uname != "" && $Fullname != "" && $phone != "" && $city != "" && $pincode != "" && $passwd != ""){
+						if($uname != "" && $fullname != "" && $phone != "" && $city != "" && $postalcode != "" && $passwd != ""){
 
 							if($passwd == $cpasswd){
 
-								$query= "INSERT INTO customers values (DEFAULT,'$uname','$Fullname','$street','$city','$pincode','$passwd','$phone')";
+								$query= "INSERT INTO customers values (DEFAULT,'$uname','$fullname','$street','$city','$postalcode','$passwd','$phone')";
 								$data= mysqli_query($conn, $query);
 
 								if($data == false){

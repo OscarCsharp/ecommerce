@@ -155,13 +155,13 @@ error_reporting(0);
 				<h3>Vendor Register</h3>
 				<form action="" method="get">
 					<div class="key">
-						<i class="fa fa-user" aria-hidden="true"></i>
+						<i class="fa fa-envelope" aria-hidden="true"></i>
 						<input type="text" value="Username" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="true">
 						<div class="clearfix"></div>
 					</div>
 					<div class="key">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<input type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="true">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input type="text" value="Fullname" name="Fullname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Fullname';}" required="true">
 						<div class="clearfix"></div>
 					</div>
 					<div class="key">
@@ -211,7 +211,7 @@ error_reporting(0);
 				if ($_GET['submit']) {
 
 					$uname = $_GET['Username'];
-					$email = $_GET['Email'];
+					$fullname = $_GET['Fullname'];
 					$phone = $_GET['Phone'];
 					$street = $_GET['Street'];
 					$city = $_GET['City'];
@@ -222,17 +222,17 @@ error_reporting(0);
 					$branchcode = $_GET['BranchCode'];
 
 
-					if ($uname != "" && $email != "" && $phone != "" && $city != "" && $postalcode != "" && $passwd != "") {
+					if ($uname != "" && $fullname != "" && $phone != "" && $city != "" && $postalcode != "" && $passwd != "") {
 
 						if ($passwd == $cpasswd) {
 
-							$query = "INSERT INTO vendors values (DEFAULT,'$uname','$email','$street','$city','$postalcode','$passwd','$phone','$BankAccount','$BranchCode')";
+							$query = "INSERT INTO vendors values (DEFAULT,'$uname','$fullname','$street','$city','$postalcode','$passwd','$phone','$bankaccount','$branchcode')";
 							$data = mysqli_query($conn, $query);
 
 							if ($data == false) {
 								echo "All Fields Required ";
 							} else {
-								$_SESSION['user'] = $email;
+								$_SESSION['user'] = $uname;
 								echo "<script type='text/javascript'>  alert('Vendor Registered Successfully'); </script>";
 								echo "<script type='text/javascript'>  window.location='vendor-index.php'; </script>";
 							}

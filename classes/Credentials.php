@@ -16,13 +16,13 @@ class Credentials
 	}
 
 
-	public function createAdminAccount($name, $email, $password){
-		$q = $this->con->query("SELECT email FROM admin WHERE email = '$email'");
+	public function createAdminAccount($fullname, $username, $password){
+		$q = $this->con->query("SELECT username FROM admin WHERE username = '$username'");
 		if ($q->num_rows > 0) {
 			return ['status'=> 303, 'message'=> 'Email already exists'];
 		}else{
 			$password = password_hash($password, PASSWORD_BCRYPT, ["COST"=> 8]);
-			$q = $this->con->query("INSERT INTO `admin`(`name`, `email`, `password`, `is_active`) VALUES ('$name','$email','$password','0')");
+			$q = $this->con->query("INSERT INTO `admin`(`fullname`, `username`, `password`, `is_active`) VALUES ('$fullname','$username','$password','0')");
 			if ($q) {
 				return ['status'=> 202, 'message'=> 'Admin Created Successfully'];
 			}
@@ -30,12 +30,12 @@ class Credentials
 		}
 	}
 
-	public function loginAdmin($email, $password){
-		$q = $this->con->query("SELECT * FROM admin WHERE email = '$email' LIMIT 1");
+	public function loginAdmin($username, $password){
+		$q = $this->con->query("SELECT * FROM admin WHERE username = '$username' LIMIT 1");
 		if ($q->num_rows > 0) {
 			$row = $q->fetch_assoc();
 			if (password_verify($password, $row['password'])) {
-				$_SESSION['admin_name'] = $row['name'];
+				$_SESSION['admin_name'] = $row['fullname'];
 				$_SESSION['admin_id'] = $row['id'];
 				return ['status'=> 202, 'message'=> 'Login Successful'];
 			}else{
@@ -50,10 +50,10 @@ class Credentials
 
 if (isset($_POST['admin_register'])) {
 	extract($_POST);
-	if (!empty($name) && !empty($email) && !empty($password) && !empty($cpassword)) {
+	if (!empty($fullname) && !empty($username) && !empty($password) && !empty($cpassword)) {
 		if ($password == $cpassword) {
 			$c = new Credentials();
-			$result = $c->createAdminAccount($name, $email, $password);
+			$result = $c->createAdminAccount($fullname, $username, $password);
 			echo json_encode($result);
 			exit();
 		}else{
@@ -68,9 +68,9 @@ if (isset($_POST['admin_register'])) {
 
 if (isset($_POST['admin_login'])) {
 	extract($_POST);
-	if (!empty($email) && !empty($password)) {
+	if (!empty($username) && !empty($password)) {
 		$c = new Credentials();
-		$result = $c->loginAdmin($email, $password);
+		$result = $c->loginAdmin($username, $password);
 		echo json_encode($result);
 		exit();
 	}else{

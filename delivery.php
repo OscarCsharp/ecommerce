@@ -4,12 +4,12 @@ ini_set('display_errors', 1);
   header("location:vendor.php");
 }
  ?>
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
+<?php include_once("./vendor/top.php"); ?>
+<?php include_once("./vendor/navbar.php"); ?>
 <div class="container-fluid">
   <div class="row">
     
-   <?php include_once("./templates/sidebar.php"); ?>
+   <?php include_once("./vendor/sidebar.php"); ?>
 
       <div class="row">
       	<div class="col-10">
@@ -38,27 +38,22 @@ ini_set('display_errors', 1);
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Email</th>
+              <th>Fullname</th>
+              <th>Username</th>
               <th>Phone</th>
               <th>Address</th>
             </tr>
 
             <?php
-            if($uname != 'malbok@gmail.com'){ 
-            $q2= "SELECT * FROM delivery WHERE pincode= (SELECT pincode from vendors where email='$uname') ";
-        }
-        else{
-        	$q2= "SELECT * FROM delivery";
-        }
+            $q2= "SELECT * FROM delivery";
 			$data2= mysqli_query($con, $q2);
 			while($res2= mysqli_fetch_assoc($data2)){
             ?>
             <tr>
+            	<td><?php echo $res2['fullname']; ?></td>
             	<td><?php echo $res2['username']; ?></td>
-            	<td><?php echo $res2['email']; ?></td>
             	<td><?php echo $res2['phone']; ?></td>
-            	<td><?php echo $res2['street']."<br>".$res2['city']."<br>".$res2['pincode']; ?></td>
+            	<td><?php echo $res2['street']."<br>".$res2['city']."<br>".$res2['postalcode']; ?></td>
             </tr>
           <?php }?>
           </thead>
@@ -152,4 +147,4 @@ if(isset($_POST['submit']))
 
 ?>
 
-<?php include_once("./templates/footer.php"); ?>
+<?php include_once("./vendor/footer.php"); ?>

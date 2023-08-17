@@ -18,9 +18,9 @@ $(document).ready(function(){
 						adminHTML += '<tr>'+
 										'<td>#</td>'+
 										'<td>'+ value.username +'</td>'+
-										'<td>'+ value.email +'</td>'+
+										'<td>'+ value.fullname +'</td>'+
 										'<td>'+ value.phone +'</td>'+
-										'<td>'+value.street+'<br>'+value.city+'<br>'+value.pincode+'</td>'+
+										'<td>'+value.street+'<br>'+value.city+'<br>'+value.postalcode+'</td>'+
 										'<td><a class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></a></td>'+
 									'</tr>';
 					});

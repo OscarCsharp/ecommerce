@@ -4,16 +4,16 @@ if (!isset($_SESSION['user'])) {
   header("location:vendor.php");
 }
 
-include "./templates/top.php"; 
+include "./vendor/top.php"; 
 
 ?>
  
-<?php include "./templates/navbar.php"; ?>
+<?php include "./vendor/navbar.php"; ?>
 
 <div class="container-fluid">
   <div class="row">
     
-    <?php include "./templates/sidebar.php"; 
+    <?php include "./vendor/sidebar.php"; 
 
     $admin= $_SESSION['user'];
 
@@ -49,6 +49,6 @@ include "./templates/top.php";
   </div>
 </div>
 
-<?php include "./templates/footer.php"; ?>
+<?php include "./vendor/footer.php"; ?>
 
 <script type="text/javascript" src="./js/admin.js"></script>

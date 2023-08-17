@@ -1,15 +1,16 @@
 <?php session_start();
+use PHPMailer\PHPMailer\PHPMailer;
 ini_set('display_errors', 1);
   if (!isset($_SESSION['user'])) {
   header("location:vendor.php");
 }
  ?>
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
+<?php include_once("./vendor/top.php"); ?>
+<?php include_once("./vendor/navbar.php"); ?>
 <div class="container-fluid">
   <div class="row">
     
-    <?php include "./templates/sidebar.php"; ?>
+    <?php include "./vendor/sidebar.php"; ?>
 
       <div class="row">
       	<div class="col-10">
@@ -44,7 +45,8 @@ ini_set('display_errors', 1);
       </div>
 
 <?php
-require './phpmailer/PHPMailerAutoload.php';
+
+require './PHPMailer/SRC/PHPMailer.php';
 
 function send_email($del, $uname, $name, $phone){
 $mail = new PHPMailer;
@@ -84,8 +86,7 @@ if(!$mail->send()) {
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th>#</th>
-              <th>Image</th>
+              <th></th>
               <th>Product Name</th>
               <th>Quantity</th>
               <th>Price</th>
@@ -103,14 +104,14 @@ if(!$mail->send()) {
            
           </tbody>
         </table>
-        <?php if($uname == 'storeadmin@tsalastore.co.za'){?>
+        
         <div class="text-center text-danger mb-5">
           <form method="post">
          <a style="color:white"   data-toggle="modal" data-target="#triggerDelivery" class="btn btn-success ">Request Delivery</a>
          <a style="color:white"   data-toggle="modal" data-target="#update" class="btn btn-info ">Update Delivery</a>
       </form>
       </div>
-        <?php }?> 
+        
       </div>
     </main>
   </div>
@@ -235,6 +236,6 @@ if(isset($_POST['deli']))
 ?>
 
 
-<?php include_once("./templates/footer.php"); ?>
+<?php include_once("./vendor/footer.php"); ?>
 
 <script type="text/javascript" src="./js/customers.js"></script>
