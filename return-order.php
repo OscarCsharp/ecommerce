@@ -1,4 +1,5 @@
 <?php 
+use PHPMailer\PHPMailer\PHPMailer;
 include("connection.php");
 error_reporting(0);
 

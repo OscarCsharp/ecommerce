@@ -53,10 +53,13 @@ if($pay_type ==1){
 		// Construct variables
 $cartTotal = $total+00.00 ;// This amount needs to be sourced from your application
 $data = array(
+    // Merchant details sandbox
+    'merchant_id' => '10000100',
+    'merchant_key' => '46f0cd694581a',
     // Merchant details
-	'merchant_id' => '15801468', 
-    'merchant_key' => '1s3d6e1pi5ko8',
-    'return_url' => 'http://www.yourdomain.co.za/return.php',
+	/*'merchant_id' => '15801468', 
+    'merchant_key' => '1s3d6e1pi5ko8',*/
+    'return_url' => 'http://localhost:3000/return-order.php',
     'cancel_url' => 'http://www.yourdomain.co.za/cancel.php',
     'notify_url' => 'http://www.yourdomain.co.za/notify.php',
     // Buyer details
@@ -74,7 +77,7 @@ $data = array(
 //$data['signature'] = $signature;
 
 // If in testing mode make use of either sandbox.payfast.co.za or www.payfast.co.za
-$testingMode = false;
+$testingMode = true;
 $pfHost = $testingMode ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 //$pfHost = $testingMode ? 'sandbox.payfast.co.za' : 'www.payfast.co.za';
 $htmlForm = '<form action="https://'.$pfHost.'/eng/process" method="post">';

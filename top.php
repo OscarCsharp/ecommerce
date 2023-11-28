@@ -23,13 +23,14 @@
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
             
-                                                <li><a href="item.php?name=menclothes"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Clothes</a></li>
-                                                <li><a href="item.php?name=womenclothes"><i class="fa fa-angle-right" aria-hidden="true"></i>Women's Clothes</a></li>
-                                                <li><a href="item.php?name=kidsclothes"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kids Clothes</a></li>                                        
+                                                <li><a href="item.php?name=unisexfootwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Unisex Footwear</a></li>
+                                                    <li><a href="item.php?name=mensfootwear"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Footwear</a></li>
+                                                <li><a href="item.php?name=womenswear"> <i class="fa fa-angle-right" aria-hidden="true"></i>Women's Footwear</a></li>   
+                                                <li><a href="item.php?name=kidsfootwear"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kids Footwear</a></li>   
                                             </ul>
                                         
                                         </div>
-                                       <div class="col-sm-3">
+                                      <!-- <div class="col-sm-3">
                                         
                                             <ul class="multi-column-dropdown">
                                                 <li><a href="item.php?name=menshoes"><i class="fa fa-angle-right" aria-hidden="true"></i>Men Shoes</a></li>
@@ -38,7 +39,7 @@
                                                 <li><a href="item.php?name=unisexshoes"><i class="fa fa-angle-right" aria-hidden="true"></i>Unisex Shoes</a></li>                                        
                                             </ul>
                                         
-                                        </div> 
+                                        </div> -->
                                         <!--
                                         <div class="col-sm-3">
                                         

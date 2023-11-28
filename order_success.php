@@ -244,66 +244,7 @@ if(!$mail->send()) {
 						<button name="shopping" class="btn btn-success" onclick='window.location.href = "http://localhost/big_store/web/index.php"'>Continue Shoppping</button>
 					</div>
 
-					<?php 
-						$spay_id= $somerand;
-						$sbuyer_name= $res2['username'];
-						$sbuyer_email= $res2['email'];
-						$sbuyer_phone= $res2['phone'];
-						$sstatus= "Cod";
-
-						$allvalues= $_SESSION['kela'];
-						$delivery= $_SESSION['del'];
-
-						if($delivery ==1 )
-						{
-							$shipping= "Normal";
-						}
-						else{
-							$shipping= "Express";
-						}
-
-/*						$sent= array();
-						$vendors= array();
-						$names= array();
-						$qtys= array();*/
-
-						$some= json_decode($allvalues);
-						$items = array();
-						foreach($some as $arr) {
-		    				foreach($arr as $key => $value) {
-		        				$items[$key] = $value;
-		    				}
-		    				$sid= $items['id'];
-		    				$stitle= $items['name']; 
-		    				$sprice= $items['price'];  
-		    				$sqty= $items['quantity']; 
-		    				$simage= $items['image'];
-		    				$svendor='';
-
-		    				$q2= "SELECT * FROM products WHERE product_id= $sid ";
-							$data2= mysqli_query($conn, $q2);
-
-							while($res2= mysqli_fetch_assoc($data2)){
-								 $svendor= $res2['vendor_name'];
-								 $q3= "SELECT * FROM vendors WHERE email= '$svendor' ";
-								 $data3= mysqli_query($conn, $q3);
-								 while($res3= mysqli_fetch_assoc($data3)){
-								 	$svendor_name= $res3['username'];
-								 	$svendor_address= $res3['street'].", ".$res3['city'].", ".$res3['pincode'];
-								 	$svendor_phone= $res3['phone'];
-								 }
-							}
-
-							$q3= "INSERT INTO `orders`(`product_title`, `product_price`, `product_qty`, `product_image`, `vendor_name`, `payment_id`, `payment_status`, `buyer_email`, `buyer_phone`, `buyer_name`,`order_date`,`delivery_status`,`shipping_method`, `buyer_address`) VALUES ('$stitle', '$sprice', '$sqty', '$simage', '$svendor', '$spay_id', '$sstatus', '$sbuyer_email', '$sbuyer_phone', '$sbuyer_name','$date','ND','$shipping','$address')";
-							if(mysqli_query($conn, $q3)){
-								send_email($svendor, $stitle, $sqty, $spay_id, $sbuyer_name, $sbuyer_phone, $address);
-								send_email_customer($cust, $stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address);
-								send_email_admin($stitle, $sqty, $spay_id, $svendor_name, $svendor_phone, $svendor_address, $sbuyer_name, $sbuyer_phone, $address);
-							}else {
-							    echo "Error: " . $q3 . "<br>" . mysqli_error($conn);
-							}
-						}
-					?>
+					http://localhost:3000/
 			</div>
 		</div>
 	</div>
